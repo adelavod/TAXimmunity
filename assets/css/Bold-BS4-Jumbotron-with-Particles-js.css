@@ -16,9 +16,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
-  background: #000428;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #0B7ABF, #111C59);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #0B7ABF, #111C59); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: rgb(223,0,2);
+  background: linear-gradient(90deg, rgba(223,0,2,1) 0%, rgba(46,0,0,1) 100%);
 
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6819e8', endColorstr='#6980f2',GradientType=1 );
 }
