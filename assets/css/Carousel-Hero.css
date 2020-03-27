@@ -1,0 +1,38 @@
+div.jumbotron.carousel-hero {
+  color: #fff;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+  max-height: 450px;
+  padding-top: 100px;
+  padding-bottom: 140px;
+  margin-bottom: 0;
+}
+
+div.jumbotron.hero-working {
+  background-image: url('../../assets/img/working2.png');
+}
+
+div.jumbotron.hero-charts {
+  background-image: url('../../assets/img/charts.png');
+}
+
+div.jumbotron.hero-handshake {
+  background-image: url('../../assets/img/handshake2.png');
+}
+
+h1.hero-title, h2.hero-title, h3.hero-title {
+  text-shadow: 0 3px 3px rgba(0,0,0,0.4);
+  color: #fff;
+}
+
+p.hero-subtitle {
+  text-shadow: 0 3px 3px rgba(0,0,0,0.4);
+  font-size: 1.3rem;
+  max-width: 600px;
+  margin: 25px auto;
+  padding: 10px 15px;
+  color: #fff;
+}
+

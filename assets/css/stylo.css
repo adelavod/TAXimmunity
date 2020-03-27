@@ -1,11 +1,22 @@
+body {
+    background: rgb(223,0,2);
+    background: linear-gradient(90deg, rgba(223,0,2,1) 0%, rgba(46,0,0,1) 100%);
+}
+
 #services {
     color: #686868;
-    background: #b9bbbc;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #b9bbbc, #ffffff);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #b9bbbc, #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-border-top: solid 20px black;
-    border-bottom: solid 20px black;
+    border-top: solid 1px #000;
+    border-bottom: solid 1px #000;
     margin-bottom: 0;
+}
+
+#services.jumbotron.jumbotron-fluid {
+    background-image: url('../../assets/img/grayshapes.png');
+    background-attachment: fixed;
+    background-position: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-size: cover;
 }
 <!--
 #contact {
@@ -24,7 +35,8 @@ border-top: solid 20px black;
     padding: 10px;
 }
 #services h3, h1{
-    color: #111C59
+    color: #df0002;
+    text-align: center;
 }
 .fixed {
     background-image: url("/assets/img/blue.jpeg");

@@ -8,67 +8,133 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/Bold-BS4-Jumbotron-with-Particles-js.css">
+    <link rel="stylesheet" href="assets/css/Carousel-Hero.css">
     <link rel="stylesheet" href="assets/css/stylo.css">
 </head>
 
 <body id="landing" style="font-family: 'PT Sans', sans-serif">
-    <nav class="navbar navbar-light navbar-expand-md navbar navbar-expand-lg fixed-top" id="mainNav" style="background-color: rgba(0,0,0,0.23);">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-light navbar-expand-md navbar navbar-expand-lg fixed-top" id="mainNav" style="background-color: white; border-bottom: 1px solid grey">
         <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="assets/img/WM_bigger.png" width="50" height="50" class="d-inline-block align-top" alt="">
+            <a class="navbar-brand" href="index.html#landing">
+                <img src="assets/img/logo_red.jpeg" width="50" height="51" class="d-inline-block align-top" alt="">
             </a>
-            <a class="navbar-brand js-scroll-trigger" href="#landing">Wakanda Majestic</a><button data-toggle="collapse" class="navbar-toggler navbar-toggler-right" data-target="#navbarResponsive" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"
-                value="Menu"><i class="fa fa-bars"></i></button>
+            <a class="navbar-brand js-scroll-trigger" href="index.html" style="color: #df0002">Tax Immunity</a>
+            <button data-toggle="collapse" class="navbar-toggler navbar-toggler-right" data-target="#navbarResponsive" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"
+                value="Menu" style="color: #df0002; border: 1px solid lightgrey"><i class="fa fa-bars"></i></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item nav-link js-scroll-trigger" role="presentation"><a class="nav-link js-scroll-trigger" href="#services">služby</a></li>
-                    <li class="nav-item nav-link js-scroll-trigger" role="presentation"><a class="nav-link js-scroll-trigger" href="contact.html">kontakt</a></li>
+                    <li class="nav-item nav-link js-scroll-trigger" role="presentation"><a class="nav-link js-scroll-trigger" href="#services" style="color: #df0002">služby</a></li>
+                    <li class="nav-item nav-link js-scroll-trigger" role="presentation"><a class="nav-link js-scroll-trigger" href="contact.html" style="color: #df0002">kontakt</a></li>
                 </ul>
             </div>
         </div>
-    </nav>
+    </nav> <!-- End of NAVBAR -->
+
+    <!-- PARTICLES -->
 
     <div class="jumbotron jumbotron-fluid jumbotron-main">
-<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-<script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+        <script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
     <div id="particles-js">
 	<canvas class="particles-js-canvas-el" width="1409" height="319" style="width: 100%; height: 100%;"></canvas>
 	</div>
         <div class="container center-vertically-holder" style="margin-top: -20px;">
             <div class="row center-vertically">
                 <div class="col-md-8 offset-sm-0 offset-md-2 text-center" style="margin-top:200px;margin-bottom:100px;">
-                    <h1 style="color: white">Wakanda Majestic Official</h1>
-                    <p>Tohle je úvodní stránka. Tahle neuronová síť je interaktivní, zkuste klikat okolo. Úžasné, že?</p>
+                    <h1 style="color: white">Tax Immunity</h1>
+                    <p>Daňová optimalizace a finanční poradenství</p>
                     <p><a class="btn" role="button" style="border: 1px solid white" href="contact.html">Kontakt</a></p>
                 </div>
             </div>
         </div>
     </div>
-  <!--  <div class="map-clean"></div> -->
+    <!--  <div class="map-clean"></div> -->
+    <!-- END of PARTICLES-->
+
+    <!-- INTERMEZZO -->
+    <div class="container-fluid" style="height: 20px; background: rgb(223,0,2); background: linear-gradient(90deg, rgba(223,0,2,1) 0%, rgba(46,0,0,1) 100%);"></div>
+    <!-- END of INTERMEZZO-->
 
     <div class="jumbotron jumbotron-fluid" id="services">
+         <!--
+         style="background-image: url(assets/img/grayshapes.png); background-attachment: fixed; background-position: center;
+    padding-top: 90px;padding-bottom: 90px;
+    background-size: cover;">
+    -->
         <div class="container">
-            <h1 class="display-4">Služby, které nabízíte</h1>
-            <hr>
-            <p class="lead">Tohle je perfektní místo pro obchodní sdělení. Cokoliv Wakanda Majestic dělá, tady to můžeme odprezentovat!</p>
+            <h1>Snižujeme firmám náklady</h1><hr>
 
-            <div class="row text-center">
-                <div class="col-md-4">
-                    <h3>poradenství</h3>
-                    <p>Zde krtátký odstavec pro prezentaci vašich služeb.</p>
+            <div class="row">
+                <div class="col-md-4 col-sm-12 my-auto">
+                    <p class="lead">Jsme mladá, dynamická a progresivní společnost.
+                        Naši partneři mají mnohaleté zkušenosti s pojišťovnictvím a makléřstvím,
+                        účetním a daňovým poradenstvím a řízením společností.</p>
                 </div>
-                <div class="col-md-4">
-                    <h3>management</h3>
-                    <p>Sem taky napíšete, co budete chtít. Není problém dát sem cokoliv.</p>
+                <div class="col-md-4 col-sm-6">
+                    <h3>Optimalizace nákladů</h3>
+                    <ul>
+                        <li>zvýšení zisku společnosti</li>
+                        <li>úspory na daních</li>
+                        <li>snížení odvodů sociálního a zdravotního pojištění</li>
+                        <li>daňové poradenství</li>
+                        <li>účetní poradenství včetně jeho vedení</li>
+                        <li>audity zaměstnaneckých a jiných poměrů</li>
+                        <li>vše v rámci legislativy ČR</li>
+                    </ul>
                 </div>
-                <div class="col-md-4">
-                    <h3>obchod</h3>
-                    <p>Kdybych věděla, čím se Wakanda zabývá, bylo by snazší to otextovat.</p>
+                <div class="col-md-4 col-sm-6">
+                    <h3>Finanční poradenství</h3>
+                    <ul>
+                        <li>zprostředkování úvěrů</li>
+                        <li>ochrana vašeho majetku</li>
+                        <li>konsolidace půjček</li>
+                        <li>financování vozidel</li>
+                        <li>pojištění vozidel</li>
+                        <li>spoření a investice</li>
+                        <li>zajištění zdraví</li>
+                        <li>financování bydlení</li>
+                        <li>právní ochrana</li>
+                    </ul>
                 </div>
             </div>
+
         </div>
     </div>
 <!-- end of SERVICES section -->
+    <div class="carousel slide" data-ride="carousel" id="carousel-1">
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <div class="jumbotron hero-working carousel-hero">
+                    <h1 class="hero-title">Náš postup</h1>
+                    <p class="hero-subtitle">Provedeme audit pracovních smluv ve vaší firmě.
+                        <br>Projdeme související dokumentaci a posoudíme celkovou efektivitu.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="jumbotron hero-charts carousel-hero">
+                    <h1 class="hero-title">Navrhneme řešení</h1>
+                    <p class="hero-subtitle">Dostanete kompletní, přehledně zpracovanou analýzu.
+                        <br>Ihned uvidíte, kolik může vaše firma díky našim postupům ušetřit.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="jumbotron hero-handshake carousel-hero">
+                    <h1 class="hero-title">Předem nic neplatíte</h1>
+                    <p class="hero-subtitle">Pokud se dohodneme, všechny změny dotáhneme do konce.
+                        <br>Naše odměna bude realizována až z následně ušetřených financí.</p>
+                </div>
+            </div>
+        </div>
+        <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-slide="prev"><i class="fa fa-chevron-left"></i><span class="sr-only">Previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button" data-slide="next"><i class="fa fa-chevron-right"></i><span class="sr-only">Next</span></a></div>
+        <ol
+                class="carousel-indicators">
+            <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-1" data-slide-to="1"></li>
+            <li data-target="#carousel-1" data-slide-to="2"></li>
+        </ol>
+    </div>
+
 
     <!-- about -->
     <header id="about" class="header">
