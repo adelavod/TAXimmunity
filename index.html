@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8">
+    <link rel='icon' href='favicon.ico' type='image/x-icon' >
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Tax Immunity</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
@@ -12,7 +13,7 @@
     <link rel="stylesheet" href="assets/css/stylo.css">
 </head>
 
-<body id="landing" style="font-family: 'PT Sans', sans-serif">
+<body id="landing">
     <!-- NAVBAR -->
     <nav class="navbar navbar-light navbar-expand-md navbar navbar-expand-lg fixed-top" id="mainNav" style="background-color: white; border-bottom: 1px solid grey">
         <div class="container">
@@ -25,14 +26,15 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="nav navbar-nav ml-auto">
                     <li class="nav-item nav-link js-scroll-trigger" role="presentation"><a class="nav-link js-scroll-trigger" href="#services" style="color: #df0002">služby</a></li>
+                    <li class="nav-item nav-link js-scroll-trigger" role="presentation"><a class="nav-link js-scroll-trigger" href="#partners" style="color: #df0002">partneři</a></li>
                     <li class="nav-item nav-link js-scroll-trigger" role="presentation"><a class="nav-link js-scroll-trigger" href="contact.html" style="color: #df0002">kontakt</a></li>
                 </ul>
             </div>
         </div>
-    </nav> <!-- End of NAVBAR -->
+    </nav>
+    <!-- End of NAVBAR -->
 
     <!-- PARTICLES -->
-
     <div class="jumbotron jumbotron-fluid jumbotron-main">
         <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
         <script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
@@ -56,20 +58,16 @@
     <div class="container-fluid" style="height: 20px; background: rgb(223,0,2); background: linear-gradient(90deg, rgba(223,0,2,1) 0%, rgba(46,0,0,1) 100%);"></div>
     <!-- END of INTERMEZZO-->
 
+    <!-- SERVICES section -->
     <div class="jumbotron jumbotron-fluid" id="services">
-         <!--
-         style="background-image: url(assets/img/grayshapes.png); background-attachment: fixed; background-position: center;
-    padding-top: 90px;padding-bottom: 90px;
-    background-size: cover;">
-    -->
         <div class="container">
             <h1>Snižujeme firmám náklady</h1><hr>
-
             <div class="row">
                 <div class="col-md-4 col-sm-12 my-auto">
                     <p class="lead">Jsme mladá, dynamická a progresivní společnost.
                         Naši partneři mají mnohaleté zkušenosti s pojišťovnictvím a makléřstvím,
-                        účetním a daňovým poradenstvím a řízením společností.</p>
+                        účetním a daňovým poradenstvím a řízením společností.
+                    </p>
                 </div>
                 <div class="col-md-4 col-sm-6">
                     <h3>Optimalizace nákladů</h3>
@@ -98,10 +96,11 @@
                     </ul>
                 </div>
             </div>
-
         </div>
     </div>
-<!-- end of SERVICES section -->
+    <!-- end of SERVICES section -->
+
+    <!-- CAROUSEL section -->
     <div class="carousel slide" data-ride="carousel" id="carousel-1">
         <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
@@ -127,66 +126,53 @@
             </div>
         </div>
         <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-slide="prev"><i class="fa fa-chevron-left"></i><span class="sr-only">Previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button" data-slide="next"><i class="fa fa-chevron-right"></i><span class="sr-only">Next</span></a></div>
-        <ol
-                class="carousel-indicators">
+        <ol class="carousel-indicators">
             <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
             <li data-target="#carousel-1" data-slide-to="1"></li>
             <li data-target="#carousel-1" data-slide-to="2"></li>
         </ol>
     </div>
+    <!-- END of CAROUSEL section -->
 
-
-    <!-- about -->
-    <header id="about" class="header">
-        <div class="container-fluid" style=
-                "background-image: url(assets/img/blue.jpeg); background-attachment: fixed;
-                padding-top: 90px;padding-bottom: 90px;
-                 background-size: cover;">
-
-            <div class="row text-center" style="box-sizing: border-box">
-
-                <div class="col-sm-4" style="margin:0; padding: 0">
-                    <img src="assets/img/JV.jpeg" class="img-fluid">
+    <!-- PARTNERS section -->
+    <div class="jumbotron-fluid" id="partners">
+        <div class="container">
+            <h1>Naši partneři</h1><hr>
+            <div class="row text-center my-auto" style="padding-top: 30px">
+                <div class="col-md-6">
+                    <a class="" href="https://reyna.cz/">
+                        <img src="assets/img/logo-reyna.png" width="" height="100" class="d-inline-block align-top" alt="">
+                    </a>
                 </div>
-
-                <div class="col-sm-8" style="color: black; background-color: #e5e7e8; padding: 20px; margin: 0">
-                    <div class="container-fluid center-vertically">
-                        <h2 style="padding-top: 10px">about</h2><hr>
-                        <p>Chcete tu mít část o firmě nebo o vás společně s fotkou? Jestli jo, musel byste mi ji dodat,
-                            k téhle fotce má asi práva iDnes.</p>
-                        <p>Na konec dáme odkaz na kontakt?</p>
-                        <a class="btn btn-dark" href="contact.html">Kontaktujte mě</a>
-                    </div>
-
-                    
+                <div class="col-md-6">
+                    <a class="" href="http://www.okholding.cz">
+                        <img src="assets/img/OK-Holding-logo.jpg" width="" height="50" class="d-inline-block align-top" alt="" style="margin-top: 25px; margin-bottom: 25px">
+                    </a>
                 </div>
             </div>
         </div>
-    </header>
+    </div>
     <!-- END of ABOUT -->
 
-    <footer style="background-color: #111C59; margin-top: 10px;">
+    <footer>
         <div id="footer" class="container text-center">
             <div class="row">
-                <div class="col-md-6 text-left">
-                    <h4>Adresa</h4>
+                <div class="col-md-6 text-left" style="margin-bottom: 40px">
                     <p>WAKANDA MAJESTIC s.r.o.<br>Revoluční 767/25<br>Staré Město<br>110 00 Praha 1</p>
+                    <hr><p>IČO: 077 98 318</p>
                     <br><p>Společnost je zapsána v obchodním rejstříku Městského soudu v Praze, spisová značka C 307785.</p>
                 </div>
-                <div class="col-md-6 text-center my-auto">
-
-                    <img src="assets/img/WM_bigger.png" height="150" width="150"/>
-                    <p style="font-size: 12px">/tohle logo jsem jenom narychlo načrtla v internetové aplikaci pro ilustraci/</p>
+                <div class="col-md-6 text-center my-auto imagy" style="margin-top: 30px">
+                    <img src="assets/img/logo_nav.jpeg" height="" width="300"/>
                 </div>
             </div>
+        </div>
+        <div class="container text-right" style="border-top: 2px solid #F6EDED; margin-top: 30px">
+            <p>website by <a href="https://www.linkedin.com/in/adelavod/" target="_blank" style="color: #df0002;">Adéla Vod.</a></p>
         </div>
     </footer>
 
-    <div class="row" style="background-color: black; margin: 20px">
-        <div class="container text-right">
-            <p style="margin: 0; font-size: 14px">website by <a style="color: #0B7ABF" href="https://www.linkedin.com/in/adelavod" target="_blank">Adéla Vod.</a>, 2020</p>
-        </div>
-    </div>
+
 
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
